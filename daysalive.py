@@ -17,3 +17,16 @@ while True:
   elif rating <= 10:
     print("Feeling fantastic today, ehh?")
     break
+
+
+charges = {
+  "pic": 0.35,
+  "text": 0.10,
+  "data": 2.50
+}
+
+pics = int(input('How many pictures are you going to upload?\n> '))
+texts = int(input('How many text messages are you going to send?\n> '))
+datas = int(input('How many megabytes of data are you going to use?\n> '))
+
+print(f"For pictures we will be charging you ${round(charges['pic'] * pics, 2)} \nFor texts ${round(charges['text'] * texts, 2)} \nFor your data usage we will be charging ${round(charges['data'] * (datas / 500), 2)}.")
