@@ -28,12 +28,41 @@
 # else:
 #     print("Pass")
 
-lockdown = input("Is there a lockdown?\n> ")
-if lockdown == "no":
-    print("Have a nice day")
+# lockdown = input("Is there a lockdown?\n> ")
+# if lockdown == "no":
+#     print("Have a nice day")
+# else:
+#     home = input("Are you at home?")
+#     if home == "yes":
+#         print("Well done, stay safe")
+#     else:
+#         print("Go home")
+
+# num1 = int(input('Enter your first number\n> '))
+# num2 = int(input('Enter your second number\n> '))
+# confirmation = input('Would you like to multiply the numbers together?\n> ')
+# if confirmation == "yes":
+#     print(num1 * num2)
+# else:
+#     print("Ok boss")
+
+# num = int(input('Enter a number\n> '))
+# if num > 100:
+#     print("Too large")
+# else:
+#     print("Too small")
+
+# team = input('What is your favorite team\n> ')
+# if team == "Chelsea":
+#     print("Blue")
+# elif team == "Liverpool":
+#     print("Red")
+# else:
+#     print("Team not registered")
+
+num1 = int(input('Enter a number\n> '))
+num2 = int(input('Enter another number\n> '))
+if num1 > 10:
+    print(num1 + num2)
 else:
-    home = input("Are you at home?")
-    if home == "yes":
-        print("Well done, stay safe")
-    else:
-        print("Go home")
+    print(num1 * num2)
