@@ -60,9 +60,25 @@
 # else:
 #     print("Team not registered")
 
-num1 = int(input('Enter a number\n> '))
-num2 = int(input('Enter another number\n> '))
-if num1 > 10:
-    print(num1 + num2)
-else:
-    print(num1 * num2)
+# num1 = int(input('Enter a number\n> '))
+# num2 = int(input('Enter another number\n> '))
+# if num1 > 10:
+#     print(num1 + num2)
+# else:
+#     print(num1 * num2)
+
+# ticket = input('Do you have the seasonal ticket? (y/n)\n> ')
+# if ticket == "y":
+#     print("Your final cost is $", 20 * 0.5)
+# elif ticket == "n":
+#     print("Your final cost is $", 20 * 0.75)
+
+# colour = input("Enter a traffic light color (red, yellow, green)\n> ")
+# if colour == "red":
+#     print("Stop")
+# elif colour == "yellow":
+#     print("Get ready")
+# elif colour == "green":
+#     print("GO")
+# else:
+#     print("error")
