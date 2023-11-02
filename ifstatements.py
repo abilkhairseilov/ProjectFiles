@@ -82,3 +82,13 @@
 #     print("GO")
 # else:
 #     print("error")
+
+num1 = int(input('Input number 1\n> '))
+num2 = int(input('Input number 2\n> '))
+operator = input('What do you wanna do? (add; multiply)\n> ')
+if operator == "add":
+    print(num1 + num2)
+elif operator == "multiply":
+    print(num1 * num2)
+else:
+    print("error")
