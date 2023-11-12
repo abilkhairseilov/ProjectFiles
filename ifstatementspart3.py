@@ -16,13 +16,22 @@
 #     else:
 #         print("Good old games...")
 
-miles = int(input("How many miles do you have to drive?\n> "))
-hasMembershipCard = input("Do you have a membership card?\n> ")
-price = 0
-if hasMembershipCard == "yes":
-    price = 2 + ((miles - 1) * 0.25)
+# miles = int(input("How many miles do you have to drive?\n> "))
+# hasMembershipCard = input("Do you have a membership card?\n> ")
+# price = 0
+# if hasMembershipCard == "yes":
+#     price = 2 + ((miles - 1) * 0.25)
+# else:
+#     price = 2 + ((miles - 1) * 0.25) + 5
+# dieselCost = miles * 0.5
+# totalCost = price + dieselCost
+# print(f"Your total cost is ${totalCost}")
+
+number = int(input("Enter a number\n> "))
+if number > 90:
+    print("A*")
 else:
-    price = 2 + ((miles - 1) * 0.25) + 5
-dieselCost = miles * 0.5
-totalCost = price + dieselCost
-print(f"Your total cost is ${totalCost}")
+    if number > 80:
+        print("A")
+    else:
+        print("Pass")
