@@ -1,11 +1,5 @@
-import time
-import log
+from contextlib import redirect_stdout
 
-# Your main program goes here
-print("Hello World")
-print("Another message")
 
-# Sleep for a while to demonstrate concurrent execution
-time.sleep(2)
-
-# You can exit the logger by typing 'exit'
+with open('logs.txt', 'a+') as f:
+    with redirect_stdout(f):
