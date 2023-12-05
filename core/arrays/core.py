@@ -20,5 +20,13 @@ while True:
     guess = int(input("Guess the number"))
     if guess in numbers:
         print("Correct")
+        break
     else:
         print("Try again")
+
+names = ["Tom", "", "Andy", "", "Lisa", "", "", "", "", "Abodi"]
+for i in range(1, len(names)):
+    if names[i-1] == "":
+        name = input("Enter a name: ")
+        names[i-1] = name
+print(names)
